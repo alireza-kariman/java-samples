@@ -7,6 +7,7 @@ public class CarApplication {
     public static void main(String[] args) {
         String color = "red";
         Car peykan = new Car(120, "peykan", 1960);
+        peykan = new Car(130, "peykan", 1960);
 
         System.out.println("============================================");
         System.out.println(peykan.getSpeed());

@@ -8,7 +8,7 @@ public class Average {
         int q = 17;
         float u = 13.5f;
         float avg = printAverage(1, 2, 3, 4, 5.6f);
-
+        System.out.println(Math.pow(2,4));
     }
 
     public static float printAverage(int x ,int y,int z,int q,float u){

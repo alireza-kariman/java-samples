@@ -5,6 +5,8 @@ public class User {
     private String name;
     private int age;
 
+    private static String GENDER = "Male";
+
     public User (String nationalCode,String name){
         if (nationalCode.length()!=10){
             throw new IllegalStateException("kod meli dah raghamie");
@@ -38,4 +40,10 @@ public class User {
     public void setAge(int age) {
         this.age = age;
     }
+
+
+    public static String getGender(){
+        return GENDER;
+    }
+
 }
